@@ -1,0 +1,80 @@
+export const courses = [
+  {
+    id: 1,
+    title: "Web Development Fundamentals",
+    description: "Learn HTML, CSS, and JavaScript from scratch. Build responsive websites and understand modern web development practices.",
+    instructor: "Sarah Smith",
+    instructorId: 2,
+    duration: "8 weeks",
+    level: "Beginner",
+    students: 156,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500",
+    category: "Web Development"
+  },
+  {
+    id: 2,
+    title: "React.js Masterclass",
+    description: "Master React.js with hooks, context API, and modern patterns. Build real-world applications with best practices.",
+    instructor: "Sarah Smith",
+    instructorId: 2,
+    duration: "10 weeks",
+    level: "Intermediate",
+    students: 203,
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500",
+    category: "Frontend"
+  },
+  {
+    id: 3,
+    title: "Python for Data Science",
+    description: "Explore data analysis, visualization, and machine learning with Python. Work with pandas, numpy, and scikit-learn.",
+    instructor: "Sarah Smith",
+    instructorId: 2,
+    duration: "12 weeks",
+    level: "Intermediate",
+    students: 189,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=500",
+    category: "Data Science"
+  },
+  {
+    id: 4,
+    title: "Mobile App Development",
+    description: "Build cross-platform mobile apps with React Native. Learn navigation, state management, and API integration.",
+    instructor: "Michael Brown",
+    instructorId: 5,
+    duration: "10 weeks",
+    level: "Advanced",
+    students: 142,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500",
+    category: "Mobile Development"
+  },
+  {
+    id: 5,
+    title: "UI/UX Design Principles",
+    description: "Master user interface and user experience design. Learn Figma, design systems, and prototyping.",
+    instructor: "Sarah Smith",
+    instructorId: 2,
+    duration: "6 weeks",
+    level: "Beginner",
+    students: 178,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500",
+    category: "Design"
+  },
+  {
+    id: 6,
+    title: "Node.js Backend Development",
+    description: "Build scalable backend applications with Node.js and Express. Learn REST APIs, authentication, and databases.",
+    instructor: "Michael Brown",
+    instructorId: 5,
+    duration: "9 weeks",
+    level: "Intermediate",
+    students: 167,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=500",
+    category: "Backend"
+  }
+];
