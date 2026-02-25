@@ -14,13 +14,17 @@ const DashboardLayout = () => {
       case 'student':
         return [
           { path: '/student/dashboard', icon: FiHome, label: 'Dashboard' },
-          { path: '/student/courses', icon: FiBook, label: 'My Courses' }
+          { path: '/student/courses', icon: FiBook, label: 'My Courses' },
+          { path: '/student/assessments', icon: FiFileText, label: 'Assessments' }
         ];
       case 'teacher':
         return [
           { path: '/teacher/dashboard', icon: FiHome, label: 'Dashboard' },
           { path: '/teacher/courses', icon: FiBook, label: 'My Courses' },
-          { path: '/teacher/create-course', icon: FiFileText, label: 'Create Course' }
+          { path: '/teacher/create-course', icon: FiFileText, label: 'Create Course' },
+          { path: '/faculty/dashboard', icon: FiHome, label: 'Faculty Dashboard' },
+          { path: '/faculty/create', icon: FiFileText, label: 'Create Assessment' },
+          { path: '/faculty/submissions', icon: FiUsers, label: 'Submissions' }
         ];
       case 'admin':
         return [

@@ -33,8 +33,7 @@ const Login = () => {
       setTimeout(() => {
         const user = JSON.parse(localStorage.getItem('user'));
         if (user.role === 'student') navigate('/student/dashboard');
-        else if (user.role === 'teacher') navigate('/teacher/dashboard');
-        else if (user.role === 'admin') navigate('/admin/dashboard');
+        else if (user.role === 'teacher') navigate('/faculty/dashboard');
       }, 1000);
     } else {
       setToast({ message: result.message, type: 'error' });
